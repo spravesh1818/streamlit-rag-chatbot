@@ -40,7 +40,7 @@ def create_qa_chain(vectorstore):
 # ====== STREAMLIT APP ======
 
 st.set_page_config(page_title="PDF RAG Chatbot", layout="centered")
-st.title("📄 Chat with your PDF (RAG)")
+st.title("Chat with your PDF (RAG)")
 
 uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
 
